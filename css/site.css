@@ -423,9 +423,11 @@ body::before {
 }
 .mode:hover { transform: translateY(-4px) rotate(-.6deg); }
 .mode--img { color: #fff; overflow: hidden; justify-content: flex-end; min-height: 250px; grid-row: span 1; }
-.mode--img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
-.mode--img::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 20%, rgba(20, 12, 24, .9) 100%); z-index: 1; }
-.mode--img > * { position: relative; z-index: 2; }
+.mode--img > picture { position: absolute; inset: 0; z-index: 0; }
+.mode--img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease-out); }
+.mode--img:hover img { transform: scale(1.05); }
+.mode--img::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20, 12, 24, 0) 30%, rgba(20, 12, 24, .88) 100%); z-index: 1; }
+.mode--img > :not(picture) { position: relative; z-index: 2; }
 .mode--img h3 { text-shadow: 2px 2px 0 var(--ink-2); }
 .mode--img p { color: #f3e8d8; }
 .mode__icon { width: 44px; height: 44px; color: var(--mane-2); }
