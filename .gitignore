@@ -1,0 +1,8 @@
+# Review screenshots and local scratch
+_review/
+# Raw gameplay captures (kept locally, not published)
+media/_raw/
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ROAR-E — Peril &amp; Pride | A hand-painted 3D platformer with teeth, coming soon to iPhone, Android and PC</title>
+<meta name="description" content="ROAR-E is a hand-painted corridor-3D platformer from an Australian indie studio. Half lion, all mane: run, jump, claw-spin and roar across five worlds. Worlds 1–2 free, one-time unlock, no energy timers, no loot boxes. Coming soon to iPhone, Android and PC.">
+<link rel="canonical" href="https://roare.app/">
+<meta name="theme-color" content="#171529">
+<meta name="color-scheme" content="light">
+<meta name="robots" content="index,follow">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ROAR-E">
+<meta property="og:locale" content="en_AU">
+<meta property="og:url" content="https://roare.app/">
+<meta property="og:title" content="ROAR-E — Peril &amp; Pride">
+<meta property="og:description" content="A hand-painted 3D platformer with teeth. Half lion, all mane. Worlds 1–2 free, one-time unlock, no energy timers, no loot boxes. Coming soon to iPhone, Android and PC.">
+<meta property="og:image" content="https://roare.app/media/og.jpg">
+<meta property="og:image:secure_url" content="https://roare.app/media/og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ROAR-E key art: Rory the lion hero mid-leap, with Nyra, Kip and Dr. Rook behind him, and the ROAR-E wordmark.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ROAR-E — Peril &amp; Pride">
+<meta name="twitter:description" content="A hand-painted 3D platformer with teeth. Coming soon to iPhone, Android and PC.">
+<meta name="twitter:image" content="https://roare.app/media/og.jpg">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/lilita-one-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/site.css">
+<script>document.documentElement.classList.add("js");</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://roare.app/#org",
+      "name": "ALPHA 444 IP Pty Ltd",
+      "legalName": "ALPHA 444 IP Pty Ltd",
+      "identifier": "ACN 686 955 028",
+      "url": "https://roare.app/",
+      "email": "hello@roare.app",
+      "logo": "https://roare.app/apple-touch-icon.png",
+      "address": { "@type": "PostalAddress", "addressCountry": "AU" }
+    },
+    {
+      "@type": "VideoGame",
+      "name": "ROAR-E",
+      "alternateName": "ROAR-E: Peril & Pride",
+      "url": "https://roare.app/",
+      "image": "https://roare.app/media/og.jpg",
+      "description": "A hand-painted corridor-3D platformer. Half lion, all mane: run, jump, claw-spin and roar across five worlds.",
+      "genre": ["Platformer", "Action", "Adventure"],
+      "gamePlatform": ["iOS", "Android", "PC"],
+      "applicationCategory": "GameApplication",
+      "operatingSystem": ["iOS", "Android", "Windows"],
+      "publisher": { "@id": "https://roare.app/#org" },
+      "author": { "@id": "https://roare.app/#org" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<symbol id="wm" viewBox="-10 -780 3407 866"><defs><linearGradient id="wm-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd84f"/><stop offset=".5" stop-color="#ff9a22"/><stop offset="1" stop-color="#ef5416"/></linearGradient></defs><g fill="#3a1f14" transform="translate(14 22)"><path d="M282.1154415115596 -7.768473449971758Q284.06535100604196 8.112264976289396 189.77346660011636 19.689852599778405Q94.48903604254946 31.389309566672566 92.66099589147225 16.501117292052733L13.202183991316083 -630.6389735780892Q8.936756972135932 -665.3780888855354 45.660964582864835 -669.887254591526L235.2372795463573 -693.1642991819092Q496.276917428025 -725.215936497463 521.2601328260803 -521.7439754109919Q528.8160321171995 -460.2061140092299 511.1493263197676 -407.15766910961963Q493.4826205223358 -354.1092242100093 453.4666701522721 -318.97058855094315L604.1200473741596 -125.89143397531413Q599.1045424027525 -101.09537158868122 559.2104613760939 -64.96418977797376Q504.89807404403604 -14.972544653088057 466.1887741300245 -10.219640260287306Q427.47947421601293 -5.466735867486555 405.20875571948363 -30.942510588745762L285.2200312594721 -236.8543995181114L254.45110055859112 -233.07644987255185ZM220.08394571833952 -512.9744646354045 238.36434722911164 -364.09254188920636 243.32707798731826 -364.70188860623205Q337.61896239324386 -376.27947622972107 327.9912842642372 -454.69062220938554Q323.6039879016519 -490.4222836684731 303.10917058669736 -505.537258469201Q282.61435327174286 -520.652233269929 240.92741490280727 -515.5337208469127Z"/><path d="M871.169413133171 -31.4115839073913Q731.2040580512808 -43.65696576343727 651.0591556029458 -143.0201612210456Q570.914253154611 -242.38335667865394 586.2972417495725 -418.21172089184705Q601.6802303445343 -594.0400851050401 698.7708284137824 -676.8933636554735Q795.8614264830305 -759.7466422059069 936.8229762630125 -747.4141046071134Q1077.7845260429945 -735.0815670083197 1156.653025801061 -638.3395919100622Q1235.5215255591274 -541.5976168118048 1219.7027582504275 -360.78827910815295Q1203.8839909417275 -179.97894140450114 1107.5093795783944 -99.57257172792323Q1011.1347682150613 -19.16620205134533 871.169413133171 -31.4115839073913ZM917.5985869102328 -556.3626119303674Q869.781241401829 -560.5460875822549 833.5700610329503 -519.546082505517Q797.3588806640716 -478.5460774287791 790.4299991156328 -399.3485989304853Q783.5011175671939 -320.15112043219153 810.6790341412625 -275.111017738115Q837.8569507153312 -230.07091504403843 888.1647829689643 -225.6695500352817Q938.4726152225976 -221.26818502652495 973.6004451506368 -261.3591511479188Q1008.728275078676 -301.4501172693126 1015.7007344984887 -381.14569311665224Q1022.6731939183014 -460.84126896399187 994.044563168469 -506.5102026212358Q965.4159324186365 -552.1791362784797 917.5985869102328 -556.3626119303674Z"/><path d="M1759.979505747462 12.683200183452179Q1673.1914333748573 18.75201339919108 1664.2553037582031 -8.691484691875118L1622.3371049866369 -135.0752835418363L1463.7244209953246 -123.98400421652039L1443.4448662820614 1.736875754277449Q1439.6219326665703 33.07990015479675 1349.841168143186 39.35798279176803Q1301.9580937307146 42.70629353148605 1278.630459969146 38.824090151171895Q1255.3028262075773 34.94188677085774 1255.0935567863448 31.94919462007827L1384.437260957561 -655.7485632585328Q1383.879209167608 -663.7290756606114 1520.5454840532038 -673.2857125635567Q1657.2117589388 -682.8423494665018 1657.7698107287529 -674.8618370644232L1877.6432806222192 -10.581280945996092Q1878.1315759384283 -3.5983325941773217 1832.5226555214529 3.6007213990917393Q1786.9137351044774 10.7997753923608 1759.979505747462 12.683200183452179ZM1479.8044500863164 -252.41855044312118 1584.548675363598 -259.7429801862543 1525.2187030368718 -463.09969727155226 1519.2333187353129 -462.68115842908753Z"/><path d="M2042.5837062130397 -58.2979939660022Q2040.9112508007572 -42.38564364010983 1946.4316707407713 -52.31584765053691Q1850.9575687854172 -62.35058012423164 1852.5254957344318 -77.26840855475574L1920.678053784942 -725.6966843348698Q1924.33654999931 -760.5049506727594 1961.133860127936 -756.6373975318562L2151.087542143276 -736.6724610477345Q2412.646800625132 -709.1814752083416 2391.218465655263 -505.3044866578456Q2384.7377009326683 -443.6441291450127 2355.5904880488133 -395.92945654733853Q2326.4432751649583 -348.21478394966437 2279.5484578707246 -322.97837947239304L2382.90723940092 -100.95819507333125Q2372.44238111955 -77.92589729063393 2325.4430353620487 -51.694970917994205Q2261.2769977194434 -15.202237213217671 2222.4906438000808 -19.27884728065615Q2183.704289880718 -23.35545734809463 2167.7351708402152 -53.188111220491706L2097.1418461312137 -280.814081853303L2066.3116673747973 -284.0544642146002ZM2095.7886940162753 -564.5096387084533 2080.1094245261274 -415.33135440321234 2085.0820340029686 -414.80871208687404Q2179.5616140629545 -404.878508076447 2187.819362661099 -483.44573781054055Q2191.582387338735 -519.2485260437984 2175.0129803816058 -538.5864357831947Q2158.4435734244767 -557.9243455225911 2116.673653819009 -562.3145409798325Z"/><path d="M2851.0 -200.0H2456.0Q2438.0 -200.0 2430.0 -229.0Q2426.0 -244.0 2426.0 -258.0Q2426.0 -272.0 2430.0 -287.0Q2438.0 -316.0 2456.0 -316.0H2851.0Q2869.0 -316.0 2877.0 -287.0Q2881.0 -272.0 2881.0 -258.0Q2881.0 -244.0 2877.0 -229.0Q2869.0 -200.0 2851.0 -200.0Z"/><path d="M3249.260539689362 -412.35901887782006Q3268.1882389531047 -414.01497799002556 3274.289140945441 -344.2813491236033Q3276.1194115431417 -323.3612604636767 3274.120474070037 -294.5775107256975Q3272.1215365969324 -265.79376098771826 3260.1672002198316 -264.7478920747464L3133.65047356218 -253.67911274579382L3142.3660478369457 -154.0596429366192L3325.665872285827 -170.0962996021883Q3342.6011821533866 -171.5779472288985 3352.413203022834 -128.26831496934764Q3357.057746229315 -109.60208293384744 3358.9315946983897 -88.18389692487492Q3360.805443167464 -66.7657109159024 3357.791570232334 -32.372156724297106Q3354.7776972972038 2.0213974673081907 3340.8309715239193 3.2415778657754046L3000.1323847765425 33.0488418854745Q2962.2769862490563 36.36076010988551 2959.5751582238786 5.478724469041396L2903.5340156371344 -635.074466403951Q2901.2679663256954 -660.9755285543365 2924.1804443818055 -662.9801106375326L3280.8181462986504 -694.1818665411943Q3301.7382349585773 -696.012137138895 3309.451518191745 -607.8489063577755Q3317.1648014249126 -519.685675576656 3296.244712764986 -517.8554049789552L3111.948693618013 -501.7315925706384L3120.7514236355264 -401.1159280633721Z"/></g><g fill="url(#wm-g)" stroke="#3a1f14" stroke-width="34" stroke-linejoin="round" paint-order="stroke fill"><path d="M282.1154415115596 -7.768473449971758Q284.06535100604196 8.112264976289396 189.77346660011636 19.689852599778405Q94.48903604254946 31.389309566672566 92.66099589147225 16.501117292052733L13.202183991316083 -630.6389735780892Q8.936756972135932 -665.3780888855354 45.660964582864835 -669.887254591526L235.2372795463573 -693.1642991819092Q496.276917428025 -725.215936497463 521.2601328260803 -521.7439754109919Q528.8160321171995 -460.2061140092299 511.1493263197676 -407.15766910961963Q493.4826205223358 -354.1092242100093 453.4666701522721 -318.97058855094315L604.1200473741596 -125.89143397531413Q599.1045424027525 -101.09537158868122 559.2104613760939 -64.96418977797376Q504.89807404403604 -14.972544653088057 466.1887741300245 -10.219640260287306Q427.47947421601293 -5.466735867486555 405.20875571948363 -30.942510588745762L285.2200312594721 -236.8543995181114L254.45110055859112 -233.07644987255185ZM220.08394571833952 -512.9744646354045 238.36434722911164 -364.09254188920636 243.32707798731826 -364.70188860623205Q337.61896239324386 -376.27947622972107 327.9912842642372 -454.69062220938554Q323.6039879016519 -490.4222836684731 303.10917058669736 -505.537258469201Q282.61435327174286 -520.652233269929 240.92741490280727 -515.5337208469127Z"/><path d="M871.169413133171 -31.4115839073913Q731.2040580512808 -43.65696576343727 651.0591556029458 -143.0201612210456Q570.914253154611 -242.38335667865394 586.2972417495725 -418.21172089184705Q601.6802303445343 -594.0400851050401 698.7708284137824 -676.8933636554735Q795.8614264830305 -759.7466422059069 936.8229762630125 -747.4141046071134Q1077.7845260429945 -735.0815670083197 1156.653025801061 -638.3395919100622Q1235.5215255591274 -541.5976168118048 1219.7027582504275 -360.78827910815295Q1203.8839909417275 -179.97894140450114 1107.5093795783944 -99.57257172792323Q1011.1347682150613 -19.16620205134533 871.169413133171 -31.4115839073913ZM917.5985869102328 -556.3626119303674Q869.781241401829 -560.5460875822549 833.5700610329503 -519.546082505517Q797.3588806640716 -478.5460774287791 790.4299991156328 -399.3485989304853Q783.5011175671939 -320.15112043219153 810.6790341412625 -275.111017738115Q837.8569507153312 -230.07091504403843 888.1647829689643 -225.6695500352817Q938.4726152225976 -221.26818502652495 973.6004451506368 -261.3591511479188Q1008.728275078676 -301.4501172693126 1015.7007344984887 -381.14569311665224Q1022.6731939183014 -460.84126896399187 994.044563168469 -506.5102026212358Q965.4159324186365 -552.1791362784797 917.5985869102328 -556.3626119303674Z"/><path d="M1759.979505747462 12.683200183452179Q1673.1914333748573 18.75201339919108 1664.2553037582031 -8.691484691875118L1622.3371049866369 -135.0752835418363L1463.7244209953246 -123.98400421652039L1443.4448662820614 1.736875754277449Q1439.6219326665703 33.07990015479675 1349.841168143186 39.35798279176803Q1301.9580937307146 42.70629353148605 1278.630459969146 38.824090151171895Q1255.3028262075773 34.94188677085774 1255.0935567863448 31.94919462007827L1384.437260957561 -655.7485632585328Q1383.879209167608 -663.7290756606114 1520.5454840532038 -673.2857125635567Q1657.2117589388 -682.8423494665018 1657.7698107287529 -674.8618370644232L1877.6432806222192 -10.581280945996092Q1878.1315759384283 -3.5983325941773217 1832.5226555214529 3.6007213990917393Q1786.9137351044774 10.7997753923608 1759.979505747462 12.683200183452179ZM1479.8044500863164 -252.41855044312118 1584.548675363598 -259.7429801862543 1525.2187030368718 -463.09969727155226 1519.2333187353129 -462.68115842908753Z"/><path d="M2042.5837062130397 -58.2979939660022Q2040.9112508007572 -42.38564364010983 1946.4316707407713 -52.31584765053691Q1850.9575687854172 -62.35058012423164 1852.5254957344318 -77.26840855475574L1920.678053784942 -725.6966843348698Q1924.33654999931 -760.5049506727594 1961.133860127936 -756.6373975318562L2151.087542143276 -736.6724610477345Q2412.646800625132 -709.1814752083416 2391.218465655263 -505.3044866578456Q2384.7377009326683 -443.6441291450127 2355.5904880488133 -395.92945654733853Q2326.4432751649583 -348.21478394966437 2279.5484578707246 -322.97837947239304L2382.90723940092 -100.95819507333125Q2372.44238111955 -77.92589729063393 2325.4430353620487 -51.694970917994205Q2261.2769977194434 -15.202237213217671 2222.4906438000808 -19.27884728065615Q2183.704289880718 -23.35545734809463 2167.7351708402152 -53.188111220491706L2097.1418461312137 -280.814081853303L2066.3116673747973 -284.0544642146002ZM2095.7886940162753 -564.5096387084533 2080.1094245261274 -415.33135440321234 2085.0820340029686 -414.80871208687404Q2179.5616140629545 -404.878508076447 2187.819362661099 -483.44573781054055Q2191.582387338735 -519.2485260437984 2175.0129803816058 -538.5864357831947Q2158.4435734244767 -557.9243455225911 2116.673653819009 -562.3145409798325Z"/><path d="M2851.0 -200.0H2456.0Q2438.0 -200.0 2430.0 -229.0Q2426.0 -244.0 2426.0 -258.0Q2426.0 -272.0 2430.0 -287.0Q2438.0 -316.0 2456.0 -316.0H2851.0Q2869.0 -316.0 2877.0 -287.0Q2881.0 -272.0 2881.0 -258.0Q2881.0 -244.0 2877.0 -229.0Q2869.0 -200.0 2851.0 -200.0Z"/><path d="M3249.260539689362 -412.35901887782006Q3268.1882389531047 -414.01497799002556 3274.289140945441 -344.2813491236033Q3276.1194115431417 -323.3612604636767 3274.120474070037 -294.5775107256975Q3272.1215365969324 -265.79376098771826 3260.1672002198316 -264.7478920747464L3133.65047356218 -253.67911274579382L3142.3660478369457 -154.0596429366192L3325.665872285827 -170.0962996021883Q3342.6011821533866 -171.5779472288985 3352.413203022834 -128.26831496934764Q3357.057746229315 -109.60208293384744 3358.9315946983897 -88.18389692487492Q3360.805443167464 -66.7657109159024 3357.791570232334 -32.372156724297106Q3354.7776972972038 2.0213974673081907 3340.8309715239193 3.2415778657754046L3000.1323847765425 33.0488418854745Q2962.2769862490563 36.36076010988551 2959.5751582238786 5.478724469041396L2903.5340156371344 -635.074466403951Q2901.2679663256954 -660.9755285543365 2924.1804443818055 -662.9801106375326L3280.8181462986504 -694.1818665411943Q3301.7382349585773 -696.012137138895 3309.451518191745 -607.8489063577755Q3317.1648014249126 -519.685675576656 3296.244712764986 -517.8554049789552L3111.948693618013 -501.7315925706384L3120.7514236355264 -401.1159280633721Z"/></g></symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap-wide top__row">
+    <a class="brand" href="#main" aria-label="ROAR-E home">
+      <svg class="wordmark wordmark--sm" viewBox="0 0 3407 866" role="img" aria-label="ROAR-E"><use href="#wm"/></svg>
+    </a>
+    <nav aria-label="Site">
+      <ul class="nav">
+        <li><a href="#game">The game</a></li>
+        <li><a href="#worlds">Worlds</a></li>
+        <li><a href="#cast">Cast</a></li>
+        <li><a href="#promise">Our promise</a></li>
+        <li><a href="#studio">Studio</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================== HERO ============================== -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__clouds" aria-hidden="true"></div>
+  <div class="hero__sun" aria-hidden="true"></div>
+  <div class="wrap-wide hero__grid">
+    <div class="hero__copy">
+      <p class="sign"><i class="sign__dot" aria-hidden="true"></i>Helix Corp · Specimen transit area · Keep out</p>
+      <h1 id="hero-title">
+        <svg class="wordmark" viewBox="0 0 3407 866" role="img" aria-label="ROAR-E"><use href="#wm"/></svg>
+      </h1>
+      <p class="ribbon">Peril &amp; Pride</p>
+      <p class="hero__tag">The most unhinged hero on your phone.</p>
+      <p class="hero__lead">Rory Leo Vane was a wildlife geneticist — until he said no to his boss and got thrown into the splice chamber for it. Now he's <strong>half lion, all mane</strong>, loose on an island of caged animals, corporate machinery and one very smug villain. Run it. Jump it. Claw-spin it. <strong>Roar.</strong></p>
+      <div class="launch">
+        <span class="stamp">Coming soon</span>
+        <p class="platforms" aria-label="Platforms"><span>iPhone</span><i aria-hidden="true"></i><span>Android</span><i aria-hidden="true"></i><span>PC</span></p>
+      </div>
+      <div class="cta">
+        <a class="btn btn--primary" href="#teaser"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>Watch the teaser</a>
+        <a class="btn btn--ghost" href="mailto:hello@roare.app?subject=ROAR-E%20launch%20news" data-site-href="mailto:CONTACT_EMAIL?subject=ROAR-E%20launch%20news">Get launch news</a>
+      </div>
+    </div>
+
+    <div class="hero__stage">
+      <div class="burst" aria-hidden="true"></div>
+      <div class="cutout cutout--rory"><img src="media/rory-cut.webp" width="720" height="917" alt="Rory, the lion hero: enormous amber mane, red t-shirt, torn lab coat, leaping straight at you with a huge fanged grin" fetchpriority="high" decoding="async"></div>
+      <div class="cutout cutout--kip" aria-hidden="true"><img src="media/kip-cut.webp" width="480" height="729" alt="" decoding="async"></div>
+      <p class="hero__sticker" aria-hidden="true">Half lion. All mane.</p>
+    </div>
+  </div>
+  <div class="hero__sea" aria-hidden="true">
+    <svg viewBox="0 0 1440 160" preserveAspectRatio="none">
+      <path d="M0 70c120-40 240-40 360 0s240 40 360 0 240-40 360 0 240 40 360 0v90H0z" fill="#21b8cc" opacity=".85"/>
+      <path d="M0 105c120-30 240-30 360 0s240 30 360 0 240-30 360 0 240 30 360 0v55H0z" fill="#0b5f70"/>
+    </svg>
+  </div>
+</section>
+
+<!-- Helix Corp PA ticker (decorative) -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <div class="ticker__item"><b>Helix Corp facility announcement</b><i></i>Attention all staff<i></i>Specimen V has left containment<i></i>He is considered armed (claws) and unreasonable<i></i>Do not engage<i></i>Do not feed<i></i>Report sightings to Dr. Rook<i></i>The rest of the island is above your pay grade<i></i>Coming soon to iPhone, Android and PC<i></i></div>
+    <div class="ticker__item"><b>Helix Corp facility announcement</b><i></i>Attention all staff<i></i>Specimen V has left containment<i></i>He is considered armed (claws) and unreasonable<i></i>Do not engage<i></i>Do not feed<i></i>Report sightings to Dr. Rook<i></i>The rest of the island is above your pay grade<i></i>Coming soon to iPhone, Android and PC<i></i></div>
+  </div>
+</div>
+
+<!-- ============================== THE SET-UP ============================== -->
+<section id="game" class="sec sec--sand" aria-labelledby="game-title">
+  <div class="wrap">
+    <div class="sec__head" data-reveal>
+      <p class="eyebrow">The set-up</p>
+      <h2 id="game-title" class="h-pop">One splice. One island. One very big head.</h2>
+      <p class="lead">ROAR-E is a corridor-3D platformer in the classic mascot-platformer grammar — built for phones first, with a hand-painted look that moves like the key art. Saturday-morning cartoon, with teeth.</p>
+    </div>
+    <div class="strip">
+      <figure class="panel" data-reveal="pop">
+        <div class="panel__img">
+          <picture>
+            <source srcset="media/story-chamber.avif" type="image/avif">
+            <source srcset="media/story-chamber.webp" type="image/webp">
+            <img src="media/story-chamber.webp" width="1000" height="563" alt="A glowing splice chamber in Dr. Rook's laboratory, a silhouette standing inside it" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <figcaption><p class="panel__cap">A scientist says no.</p><p class="panel__sub">Rory sabotages his employer's illegal gene-splicing program. His employer is Dr. Cassius Rook. Rook has a chamber.</p></figcaption>
+      </figure>
+      <figure class="panel" data-reveal="pop" data-delay="1">
+        <div class="panel__img">
+          <picture>
+            <source srcset="media/key-art.avif" type="image/avif">
+            <source srcset="media/key-art.webp" type="image/webp">
+            <img src="media/key-art.jpg" width="1280" height="720" alt="Rory mid-leap, mouth open, enormous mane, torn lab coat flying" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <figcaption><p class="panel__cap">The chamber says yes.</p><p class="panel__sub">He wakes up as Specimen V: half lion, enormous head, red t-shirt, torn lab coat, zero dignity. Rook only ever calls him by the number.</p></figcaption>
+      </figure>
+      <figure class="panel" data-reveal="pop" data-delay="2">
+        <div class="panel__img">
+          <picture>
+            <source srcset="media/story-cages.avif" type="image/avif">
+            <source srcset="media/story-cages.webp" type="image/webp">
+            <img src="media/story-cages.webp" width="1280" height="720" alt="A wooden slat cage on a beach between beached cargo ships, next to a rusted 'Specimen transit area — keep out' warning sign" loading="lazy" decoding="async">
+          </picture>
+        </div>
+        <figcaption><p class="panel__cap">The island is a lab. Break it.</p><p class="panel__sub">Five worlds of caged animals and corporate machinery. Every cage you smash adds a resident to your camp. Every boss you beat frees the hybrid they were built from.</p></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FIVE WORLDS ============================== -->
+<section id="worlds" class="sec sec--sea sec--torn" aria-labelledby="worlds-title">
+  <div class="wrap-wide">
+    <div class="sec__head" data-reveal>
+      <p class="eyebrow">Five worlds</p>
+      <h2 id="worlds-title" class="h-pop">Five worlds. One maniac.</h2>
+      <p class="lead">Each world is a place Rook has colonised: a facility grafted onto an ecosystem. Five platforming levels, rides and arenas, then a lieutenant who chose the wrong side.</p>
+    </div>
+    <ul class="worlds" role="list">
+      <li class="world" data-reveal data-delay="1">
+        <span class="world__num">W1</span>
+        <div class="world__img"><picture><source srcset="media/w1-shorewrecks.avif" type="image/avif"><source srcset="media/w1-shorewrecks.webp" type="image/webp"><img src="media/w1-shorewrecks.webp" width="1000" height="563" alt="Rory sprinting along a white-sand beach past rusted, beached cargo ships and cranes" loading="lazy" decoding="async"></picture></div>
+        <div class="world__body">
+          <h3 class="world__name">The Shorewrecks</h3>
+          <p class="world__set">Beached coast facility</p>
+          <p class="world__sig">Beached cargo ships, cranes, tide pools. Rust-red containers on white sand, teal corporate signage, bright noon light.</p>
+          <p class="world__boss"><b>Boss</b> — Scuttle, a coconut-crab foreman with one enormous claw and a clipboard.</p>
+        </div>
+      </li>
+      <li class="world" data-reveal data-delay="2">
+        <span class="world__num">W2</span>
+        <div class="world__img"><picture><source srcset="media/w2-canopy.avif" type="image/avif"><source srcset="media/w2-canopy.webp" type="image/webp"><img src="media/w2-canopy.webp" width="1000" height="563" alt="Rory and Kip running along a giant branch inside a glowing jungle greenhouse" loading="lazy" decoding="async"></picture></div>
+        <div class="world__body">
+          <h3 class="world__name">The Canopy</h3>
+          <p class="world__set">Jungle greenhouse belt</p>
+          <p class="world__sig">Kapok trunks, canopy platforms, glowing greenhouse domes. Bioluminescent lab-glow under volumetric god rays.</p>
+          <p class="world__boss"><b>Boss</b> — Morosa, the sloth warden on a hanging vine throne.</p>
+        </div>
+      </li>
+      <li class="world" data-reveal data-delay="3">
+        <span class="world__num">W3</span>
+        <div class="world__img"><picture><source srcset="media/w3-scrablands.avif" type="image/avif"><source srcset="media/w3-scrablands.webp" type="image/webp"><img src="media/w3-scrablands.webp" width="1000" height="563" alt="A dust devil tearing across dark scrap flats under a sunset sky" loading="lazy" decoding="async"></picture></div>
+        <div class="world__body">
+          <h3 class="world__name">The Scrablands</h3>
+          <p class="world__set">Arid scrap flats</p>
+          <p class="world__sig">Termite towers, scrap ramps, dust-devil trails. Golden grass, red earth, heat shimmer, scrap-metal glamour.</p>
+          <p class="world__boss"><b>Boss</b> — Gnash. Two hyena heads, one body, zero agreement.</p>
+        </div>
+      </li>
+      <li class="world world--redacted" data-reveal data-delay="4">
+        <span class="world__num">W4</span>
+        <div class="world__img" aria-hidden="true"></div>
+        <p class="redact">Redacted<small>by order of facility management</small></p>
+        <div class="world__body">
+          <h3 class="world__name">The Reefworks</h3>
+          <p class="world__set">Undersea glass complex</p>
+          <p class="world__sig">Glass tunnels through reef, turbine halls, kelp. Sodium-orange lamps in teal depths. Footage withheld — World 4 ends in a blackout.</p>
+          <p class="world__boss"><b>Boss</b> — Volt, the electric-eel director. Waterproof tie.</p>
+        </div>
+      </li>
+      <li class="world" data-reveal data-delay="5">
+        <span class="world__num">W5</span>
+        <div class="world__img"><picture><source srcset="media/w5-spire.avif" type="image/avif"><source srcset="media/w5-spire.webp" type="image/webp"><img src="media/w5-spire.webp" width="1000" height="563" alt="Dr. Rook standing on an obsidian balcony high above the island, raven on his shoulder, storm clouds behind" loading="lazy" decoding="async"></picture></div>
+        <div class="world__body">
+          <h3 class="world__name">The Spire</h3>
+          <p class="world__set">Volcanic ridge and Rook's tower</p>
+          <p class="world__sig">Obsidian ridges, lava falls, the white spire interior. Magma rim light on sterile lab panels.</p>
+          <p class="world__boss"><b>Final</b> — Rook. And the cure. And a choice.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================== HOW IT PLAYS ============================== -->
+<section id="play" class="sec sec--cream" aria-labelledby="play-title">
+  <div class="wrap">
+    <div class="sec__head" data-reveal>
+      <p class="eyebrow">How it plays</p>
+      <h2 id="play-title" class="h-pop">Smash. Free. Roar. Repeat.</h2>
+      <p class="lead">One stick, two buttons, five verbs. The jump is the product: coyote time, input buffering and ledge forgiveness are tuned so a phone feels like a controller — and Bluetooth controllers work from day one.</p>
+    </div>
+    <ul class="moves" aria-label="Rory's moves" data-reveal>
+      <li>Run</li><li>Jump</li><li>Claw Spin</li><li>Pounce Slam</li><li>Slide</li><li class="is-roar"><b>ROAR</b> — when Kip's meter is full</li>
+    </ul>
+    <div class="modes">
+      <article class="mode mode--img" data-reveal="pop">
+        <picture><source srcset="media/mode-rampage.avif" type="image/avif"><source srcset="media/mode-rampage.webp" type="image/webp"><img src="media/mode-rampage.webp" width="1000" height="563" alt="A colossal hermit crab wearing a shipwreck as a shell chases Rory across the water" loading="lazy" decoding="async"></picture>
+        <span class="mode__tag">Free tier</span>
+        <h3>Rampage Runs</h3>
+        <p>Something enormous is behind you and the camera is in front. Run toward the screen. Don't look back. (Look back.)</p>
+      </article>
+      <article class="mode mode--img" data-reveal="pop" data-delay="1">
+        <picture><source srcset="media/mode-ember.avif" type="image/avif"><source srcset="media/mode-ember.webp" type="image/webp"><img src="media/mode-ember.webp" width="1000" height="563" alt="Rory holding a blazing ember orb while sprinting through the jungle with Kip on his shoulder" loading="lazy" decoding="async"></picture>
+        <h3>Ember Rush</h3>
+        <p>Timed arenas. Grab every ember before the clock does. Medal ladders on every one.</p>
+      </article>
+      <article class="mode mode--img" data-reveal="pop" data-delay="2">
+        <picture><source srcset="media/mode-boss.avif" type="image/avif"><source srcset="media/mode-boss.webp" type="image/webp"><img src="media/mode-boss.webp" width="1000" height="563" alt="Rory in a golden claw-spin tornado facing a crab foreman in a hard hat" loading="lazy" decoding="async"></picture>
+        <h3>Boss fights</h3>
+        <p>Five lieutenants who chose Rook. Comedic, not menacing — until phase two.</p>
+      </article>
+      <article class="mode" data-reveal="pop" data-delay="3">
+        <div class="mode__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M8 4v16M12 4v16M16 4v16"/></svg></div>
+        <h3>Platforming levels</h3>
+        <p>Twenty-five corridor levels, five per world. Cages, crates, hidden branches, and one Cub hidden in every level.</p>
+      </article>
+      <article class="mode" data-reveal="pop">
+        <div class="mode__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4v16M4 12h16M6.3 6.3l11.4 11.4M17.7 6.3 6.3 17.7"/></svg></div>
+        <h3>Pride Rides</h3>
+        <p>Animal-back autorunners. Bastion Roll: a pangolin, a hill, and a very bad idea.</p>
+      </article>
+      <article class="mode" data-reveal="pop" data-delay="1">
+        <div class="mode__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 3l18 18M21 3 3 21"/></svg></div>
+        <h3>Bonus rounds</h3>
+        <p>Side-camera crate-and-cage gauntlets tucked off hidden branches. Old school on purpose.</p>
+      </article>
+      <article class="mode" data-reveal="pop" data-delay="2">
+        <div class="mode__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="7"/><path d="M9 7l-2 6M13 6l-3 9"/></svg></div>
+        <span class="mode__tag mode__tag--paid">Full Pride</span>
+        <h3>Mirror Trials</h3>
+        <p>Hard remixes of levels you've already beaten, against the clock. Built for the fifteen percent.</p>
+      </article>
+      <article class="mode" data-reveal="pop" data-delay="3">
+        <div class="mode__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></div>
+        <h3>Daily Ember Run</h3>
+        <p>One seeded daily challenge. Exactly one, so it never becomes a chore list.</p>
+      </article>
+    </div>
+
+    <div class="sec__head" style="margin-top:clamp(40px,6vw,72px)" data-reveal>
+      <p class="eyebrow">Dev window</p>
+      <h3>Early pre-alpha capture, September 2026.</h3>
+      <p>Straight from the engine, no polish: greybox floors dressed with the finished cages, checkpoints and the clamper enemy. Rory's animation rig isn't wired up yet, so he T-poses through the whole thing with total confidence. The jump, the bounce cages and the one-time TEACH glyphs are real.</p>
+    </div>
+    <div class="devwin" data-reveal="pop">
+      <div class="tv">
+        <p class="tv__tag"><i aria-hidden="true"></i>Pre-alpha · World 1 · Sep 2026</p>
+        <div class="tv__screen">
+          <video class="tv__video" muted loop playsinline preload="none" poster="media/gameplay-poster.jpg" aria-label="Pre-alpha engine capture of ROAR-E: Rory moving through a greybox World 1 level with cages, orbs and bounce rings">
+            <source src="media/gameplay.mp4" type="video/mp4">
+            <source src="media/gameplay.webm" type="video/webm">
+          </video>
+          <picture class="tv__fallback">
+            <source srcset="media/key-art.avif" type="image/avif">
+            <source srcset="media/key-art.webp" type="image/webp">
+            <img src="media/key-art.jpg" width="1280" height="720" alt="ROAR-E key art: Rory mid-leap with Nyra, Kip and Dr. Rook behind him" loading="lazy" decoding="async">
+          </picture>
+        </div>
+      </div>
+      <p class="tv__caption">Muted, loops, 21 seconds. Everything is still being painted.</p>
+    </div>
+    <div class="strip" aria-label="Screenshots from the current build">
+      <figure class="panel" data-reveal="pop"><div class="panel__img"><img src="media/shot-1.jpg" width="1280" height="720" alt="Greybox World 1 level: Rory on a sand-coloured corridor with floating orbs and wooden cages ahead" loading="lazy" decoding="async"></div><figcaption><p class="panel__sub">W1-1 “First Light” — greybox corridor, real cages, real orbs.</p></figcaption></figure>
+      <figure class="panel" data-reveal="pop" data-delay="1"><div class="panel__img"><img src="media/shot-2.jpg" width="1280" height="720" alt="Rory in mid-air above a red platform, a teal bounce ring on a crate ahead and a BOUNCE glyph on screen" loading="lazy" decoding="async"></div><figcaption><p class="panel__sub">TEACH beat: one fading glyph the first time, then never again.</p></figcaption></figure>
+      <figure class="panel" data-reveal="pop" data-delay="2"><div class="panel__img"><img src="media/shot-3.jpg" width="1280" height="720" alt="Rory landing on a stacked crate wrapped in a teal bounce ring, on a floating platform" loading="lazy" decoding="async"></div><figcaption><p class="panel__sub">Teal means safe. Amber means timed. Magenta means don't. One colour, one meaning, everywhere.</p></figcaption></figure>
+    </div>
+    <p class="lead" style="margin:clamp(32px,5vw,56px) auto 0;max-width:62ch" data-reveal><strong>The camp is the home screen.</strong> No start-screen ritual: boot drops you straight into your camp, a small explorable space that physically grows with every rescue. Pearl's Workshop sells cosmetics — visible item, visible price — and every look previews live on <em>your</em> Rory.</p>
+  </div>
+</section>
+
+<!-- ============================== TEASER ============================== -->
+<section id="teaser" class="sec sec--dark sec--torn" aria-labelledby="teaser-title">
+  <div class="wrap">
+    <div class="sec__head sec__head--center" data-reveal>
+      <p class="eyebrow">Teaser</p>
+      <h2 id="teaser-title" class="h-pop">See it move.</h2>
+    </div>
+    <div class="teaser" data-reveal="pop">
+      <video preload="none" playsinline poster="media/teaser-poster.jpg" aria-label="ROAR-E cinematic teaser, 65 seconds, with sound">
+        <source src="media/teaser.mp4" type="video/mp4">
+      </video>
+      <button class="teaser__play" type="button" aria-label="Play the ROAR-E teaser (65 seconds, sound on)"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span></button>
+    </div>
+    <p class="teaser__note" style="text-align:center">Cinematic teaser · pre-rendered, not gameplay · 1 min 05 · sound on</p>
+  </div>
+</section>
+
+<!-- ============================== CAST ============================== -->
+<section id="cast" class="sec sec--lab" aria-labelledby="cast-title">
+  <div class="wrap-wide">
+    <div class="sec__head" data-reveal>
+      <p class="eyebrow">Specimen files</p>
+      <h2 id="cast-title" class="h-pop">Meet the specimens. And the management.</h2>
+      <p class="lead">Named characters carry adult-friendly attitude. Only the Cubs are allowed to be cute, and they know it.</p>
+    </div>
+    <ul class="cast" role="list">
+      <li class="file file--rory" data-reveal="pop">
+        <span class="file__tab">Specimen V</span>
+        <div class="file__art"><img src="media/rory-cut.webp" width="720" height="917" alt="Rory: a lion-headed hero with an exploded amber mane, red t-shirt, torn white lab coat and cargo shorts, leaping with a huge fanged grin" loading="lazy" decoding="async"></div>
+        <h3 class="file__name">Rory Leo Vane</h3>
+        <p class="file__role">The hero · half lion · all mane</p>
+        <p class="file__bio">Wildlife geneticist. Sabotaged his boss's illegal splice program and got thrown into the chamber for it. Woke up with an enormous head and a cracked ID badge. Runs, jumps, claw-spins, pounce-slams, slides, and — when the meter is full — roars.</p>
+        <p class="file__quote">“Smash. Free. Roar. Repeat.”</p>
+      </li>
+      <li class="file file--kip" data-reveal="pop" data-delay="1">
+        <span class="file__tab">Not a specimen</span>
+        <div class="file__art"><img src="media/kip-cut.webp" width="480" height="729" alt="Kip: a wiry pygmy possum with big notched ears and heavy-lidded amber eyes, arms crossed, leaning on a rusty wheel" loading="lazy" decoding="async"></div>
+        <h3 class="file__name">Kip</h3>
+        <p class="file__role">The Judge · ordinary possum</p>
+        <p class="file__bio">Non-hybrid, non-speaking, deeply unimpressed. Judged Rory worth following anyway. Rides on his mane, twitches an ear whenever a secret is nearby, and doubles as the roar meter.</p>
+        <p class="file__quote">“His sidekick? Zero percent impressed.”</p>
+      </li>
+      <li class="file file--nyra" data-reveal="pop" data-delay="2">
+        <span class="file__tab">Specimen I</span>
+        <div class="file__art"><img src="media/nyra-cut.webp" width="420" height="742" alt="Nyra: a lioness adventurer with goggles pushed up on her forehead, a scar across one eye, a scarf, one armoured shoulder and a tool belt" loading="lazy" decoding="async"></div>
+        <h3 class="file__name">Nyra</h3>
+        <p class="file__role">The one that got away</p>
+        <p class="file__bio">A lioness uplifted by Rook's very first splice, years before Rory. Glimpsed, then feared, then fought beside. She did not wait to be rescued, and she is not about to start.</p>
+        <p class="file__quote">“She is cooler than him. And he knows it.”</p>
+      </li>
+      <li class="file file--rook" data-reveal="pop" data-delay="3">
+        <span class="file__tab">The management</span>
+        <div class="file__art"><img src="media/rook-cut.webp" width="380" height="842" alt="Dr. Cassius Rook: a tall, gaunt man in an immaculate white three-piece suit with DNA-helix embroidery, silver hair, black gloves, a helix-topped cane and a raven on his shoulder" loading="lazy" decoding="async"></div>
+        <h3 class="file__name">Dr. Cassius Rook</h3>
+        <p class="file__role">The villain · fully human, proud of it</p>
+        <p class="file__bio">Rory's ex-partner. Gene-splicer, raven owner, cane enthusiast. The only clean, symmetrical, uncreased thing on the island, and he would like to keep it that way. Speaks mostly through the facility PA.</p>
+        <p class="file__quote">“The rest of the island is above your pay grade, Specimen V.”</p>
+      </li>
+    </ul>
+    <div class="pride" data-reveal>
+      <div>
+        <h3>The Pride</h3>
+        <p>Your camp fills up as you free them. Each one staffs a corner of your home screen.</p>
+      </div>
+      <ul class="chips" role="list">
+        <li><b>Mira</b> harness-maker and quartermaster, fennec ears, welding goggles</li>
+        <li><b>Pearl</b> runs the Workshop; four arms, two of them crossed</li>
+        <li><b>Jett</b> runs the Sprint course and narrates himself</li>
+        <li><b>Bastion</b> the rolling ride; pangolin, spectacles, knitted scarf</li>
+        <li><b>Oran</b> the sage, with a staff of lab-pipe and driftwood</li>
+        <li><b>The Cubs</b> one hidden per level, freed into the den — the only ones allowed to be cute</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== OUR PROMISE ============================== -->
+<section id="promise" class="sec sec--dark sec--torn" aria-labelledby="promise-title">
+  <div class="wrap">
+    <div class="sec__head" data-reveal>
+      <p class="eyebrow">Our promise to players</p>
+      <h2 id="promise-title" class="h-pop">Defensible in a one-star review.</h2>
+      <p class="lead">Trust is the moat. Every design and commercial decision in ROAR-E has to survive that test — so here is the contract, in writing, before the game ships.</p>
+    </div>
+    <ul class="vows" role="list" data-reveal>
+      <li class="vow vow--no"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></i>No energy systems.</li>
+      <li class="vow vow--no"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></i>No wait timers.</li>
+      <li class="vow vow--no"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></i>No pay-to-win.</li>
+      <li class="vow vow--no"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></i>No loot boxes.</li>
+      <li class="vow vow--no"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></i>No gacha.</li>
+      <li class="vow vow--no"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></i>No interstitial ads.</li>
+      <li class="vow vow--no"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></i>No ads at all for paying players.</li>
+      <li class="vow vow--no"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></i>No difficulty tuned to sell anything.</li>
+      <li class="vow vow--no"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></i>No purchase influencing any leaderboard.</li>
+      <li class="vow vow--no"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></i>No dark-pattern popups.</li>
+      <li class="vow vow--yes"><i aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 7"/></svg></i>Assist mode is free, unlimited, and unjudged.</li>
+    </ul>
+    <div class="deal" data-reveal>
+      <div class="deal__step">
+        <span class="label">Step one · free</span>
+        <h3>Worlds 1 and 2. All of them.</h3>
+        <p>Ten platforming levels, two Rampage Runs, Bastion Roll rides, the first Ember Rush arena, bonus rounds, the camp, the Daily Ember Run and every Cub in Worlds 1–2. Roughly two and a half to three hours of real game.</p>
+        <ul><li>No gates, no timers, no nags.</li><li>The free tier is the demo. The demo is the marketing.</li></ul>
+      </div>
+      <div class="deal__arrow" aria-hidden="true"><svg viewBox="0 0 44 44"><path d="M6 22h30M26 12l10 10-10 10"/></svg>then</div>
+      <div class="deal__step">
+        <span class="label">Step two · one-time unlock</span>
+        <h3>The Full Pride.</h3>
+        <p>Worlds 3–5, every remaining ride and arena, Mirror Trials, both endings, the post-game relic hunt. Bought once, yours forever, with a restore-purchases button up front where you can see it.</p>
+        <ul><li>Never discounted to nothing. Price integrity is part of trust.</li><li>Offered once, in-fiction. Then it lives quietly on the map.</li></ul>
+      </div>
+      <p class="deal__note">Cosmetics in Pearl's Workshop are direct purchases — visible item, visible price, nothing random — and every season's earnable set is as good as the paid one. In the free tier only, you may be <em>offered</em> a strictly opt-in rewarded ad (a retry token, an ember doubler): capped per day, never an interstitial, never a banner, and gone entirely once you unlock.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== STUDIO ============================== -->
+<section id="studio" class="sec sec--sand" aria-labelledby="studio-title">
+  <div class="wrap studio">
+    <div class="poster" data-reveal="pop">
+      <picture>
+        <source srcset="media/cover.avif" type="image/avif">
+        <source srcset="media/cover.webp" type="image/webp">
+        <img src="media/cover.webp" width="800" height="1071" alt="ROAR-E: Peril & Pride key art poster — Rory leaping toward the viewer with Nyra, Kip and Dr. Rook behind him on the island" loading="lazy" decoding="async">
+      </picture>
+    </div>
+    <div data-reveal>
+      <p class="eyebrow">The studio</p>
+      <h2 id="studio-title" class="h-pop">An Australian indie studio with one very loud lion.</h2>
+      <p class="lead"><span data-site="COMPANY_LEGAL_NAME">ALPHA 444 IP Pty Ltd</span> is an independent games studio based in <span data-site="LOCATION">Australia</span>. ROAR-E is our first title.</p>
+      <p>It is a corridor-3D platformer built in Godot 4 with a hand-painted look, tuned for phones first and controllers always. We are a small team. We ship when it's good, and we would rather earn a five-star review than trick a one-star into paying.</p>
+      <ul class="facts" aria-label="Studio facts">
+        <li><span class="label">Studio</span><strong data-site="COMPANY_LEGAL_NAME">ALPHA 444 IP Pty Ltd</strong></li>
+        <li><span class="label">ACN</span><strong data-site="ACN">686 955 028</strong></li><li data-site-block="ABN" hidden><span class="label">ABN</span><strong data-site="ABN"></strong></li>
+        <li><span class="label">Based in</span><strong data-site="LOCATION">Australia</strong></li>
+        <li><span class="label">Engine</span><strong>Godot 4</strong></li>
+      </ul>
+      <div class="contact">
+        <a class="btn btn--ink" href="mailto:hello@roare.app" data-site-href="mailto:CONTACT_EMAIL"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v12H3zM3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span data-site="CONTACT_EMAIL">hello@roare.app</span></a>
+        <p style="margin:0;font-size:.95rem;color:var(--ink-3)">Press, partnerships and platform enquiries: same address, subject line “Press”. <a href="support.html">Player support &amp; FAQ →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div>
+      <a class="brand" href="#main" aria-label="ROAR-E home"><svg class="wordmark wordmark--sm" viewBox="0 0 3407 866" role="img" aria-label="ROAR-E"><use href="#wm"/></svg></a>
+      <p class="foot__blurb" style="margin-top:14px">A hand-painted 3D platformer with teeth. Coming soon to iPhone, Android and PC.</p>
+      <div data-social-block><h4 style="margin-top:18px">Follow</h4><ul class="social" data-social></ul></div>
+    </div>
+    <div>
+      <h4>The game</h4>
+      <ul><li><a href="#game">The set-up</a></li><li><a href="#worlds">Five worlds</a></li><li><a href="#play">How it plays</a></li><li><a href="#cast">Cast</a></li><li><a href="#promise">Our promise to players</a></li></ul>
+    </div>
+    <div>
+      <h4>Studio</h4>
+      <ul><li><a href="#studio">About</a></li><li><a href="mailto:hello@roare.app" data-site-href="mailto:CONTACT_EMAIL"><span data-site="CONTACT_EMAIL">hello@roare.app</span></a></li><li><a href="support.html">Support &amp; FAQ</a></li></ul>
+    </div>
+    <div>
+      <h4>Legal</h4>
+      <ul><li><a href="privacy.html">Privacy policy</a></li><li><a href="privacy.html#game">Game privacy (draft)</a></li><li><a href="support.html#refunds">Refunds</a></li></ul>
+    </div>
+  </div>
+  <div class="wrap foot__legal">
+    <p>© 2026 <span data-site="COMPANY_LEGAL_NAME">ALPHA 444 IP Pty Ltd</span>. <span data-site-block="ACN">ACN <span data-site="ACN">686 955 028</span></span><span data-site-block="ABN" hidden> · ABN <span data-site="ABN"></span></span>. All rights reserved. ROAR-E, Rory, Kip, Nyra, Dr. Cassius Rook and all related characters, artwork and names are the property of <span data-site="COMPANY_LEGAL_NAME">ALPHA 444 IP Pty Ltd</span>.</p>
+    <p>iPhone is a trademark of Apple Inc. Android is a trademark of Google LLC. Godot Engine is a free and open source project of its contributors. This site sets no cookies, runs no trackers and loads nothing from third parties.</p>
+  </div>
+</footer>
+
+<script src="site.config.js"></script>
+<script src="js/site.js" defer></script>
+</body>
+</html>
